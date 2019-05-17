@@ -1,0 +1,13 @@
+1.SELECT мюгбюмхе FROM BOOK WHERE хгдюрекэярбн <>="оХРЕП" AND жемю <20;
+2.SELECT мюгбюмхе FROM BOOK WHERE хгдюрекэярбн <>="оХРЕП" AND жемю BETWEEN 20 AND 40;
+3.SELECT мюгбюмхе FROM BOOK WHERE хгдюрекэярбн <>="оХРЕП" AND жемю BETWEEN 20 AND 40 OR жемю <10;
+4.SELECT мюгбюмхе FROM BOOK WHERE(SELECT жемю FROM)
+5.SELECT мюгбюмхе FROM BOOK WHERE йнлелемрюпхх LIKE '%яюлнсвхрекэ%' OR '%ноепюжхнммше яхярелш%' AND 
+хгдюрекэярбн ='оХРЕП' OR 'BHV';
+
+
+1.SELECT мюгбюмхе FROM BOOK WHERE LIKE '%Visual%';
+2.SELECT мюгбюмхе FROM BOOK WHERE LIKE '%Visual%' AND '%Basik%';
+3.SELECT мюгбюмхе FROM BOOK WHERE MIN LIKE '%[0-9]%;
+4.SELECT мюгбюмхе FROM BOOK WHERE MIN LIKE '%[0-9] [0-9] [0-9]%;
+5.SELECT мюгбюмхе FROM BOOK WHERE MIN LIKE '%[0-9] [0-9] [0-9] [0-9]%;
